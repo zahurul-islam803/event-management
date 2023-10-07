@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Spring Gala",
+    "image": "https://example.com/spring-gala.jpg",
+    "price": "$50",
+    "description": "Join us for an enchanting evening of music, dance, and fine dining under the stars. The Spring Gala is a formal event to celebrate the arrival of spring."
+  },
+  {
+    "id": 2,
+    "name": "Community Picnic",
+    "image": "https://example.com/community-picnic.jpg",
+    "price": "Free",
+    "description": "Bring your family and friends for a fun-filled day at the park. Enjoy games, food, and live music at our annual community picnic."
+  },
+  {
+    "id": 3,
+    "name": "Charity Auction",
+    "image": "https://example.com/charity-auction.jpg",
+    "price": "$100",
+    "description": "Support a good cause and bid on unique items and experiences. All proceeds from this charity auction will go to a local charity."
+  },
+  {
+    "id": 4,
+    "name": "Cultural Festival",
+    "image": "https://example.com/cultural-festival.jpg",
+    "price": "$20",
+    "description": "Explore the rich tapestry of cultures in our community. The Cultural Festival showcases art, music, and cuisine from around the world."
+  },
+  {
+    "id": 5,
+    "name": "Summer Music Festival",
+    "image": "https://example.com/summer-music-festival.jpg",
+    "price": "$45",
+    "description": "Get ready for a day of live music from top artists, food trucks, and a lively atmosphere at our annual Summer Music Festival."
+  },
+  {
+    "id": 6,
+    "name": "Art Exhibition Opening",
+    "image": "https://example.com/art-exhibition.jpg",
+    "price": "Free",
+    "description": "Discover the world of contemporary art at our art exhibition opening. Explore unique artworks and meet the artists."
+  }
+]
