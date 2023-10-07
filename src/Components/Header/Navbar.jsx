@@ -24,12 +24,12 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
-          to="/register"
+          to="/services"
           className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "active" : ""
           }
         >
-          Register
+          Services
         </NavLink>
       </li>
     </>
