@@ -37,10 +37,10 @@ const Register = () => {
         navigate("/");
       });
     })
-    e.target.reset()
     .catch(err =>{
       toast.error(err.message);
     })
+    e.target.reset()
   }
   return (
     <div className="hero min-h-screen bg-base-200">
