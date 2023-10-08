@@ -1,5 +1,8 @@
-import { NavLink } from "react-router-dom";
+import { useContext } from "react";
+import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../../Provider/AuthProvider";
 const Navbar = () => {
+  const {user} = useContext(AuthContext);
   const navLinks = (
     <>
       <li>
@@ -24,12 +27,22 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
-          to="/services"
+          to="/register"
           className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "active" : ""
           }
         >
-          Services
+          Register
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/serviceCard"
+          className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "active" : ""
+          }
+        >
+          Service
         </NavLink>
       </li>
     </>
@@ -68,7 +81,21 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Login</a>
+        {user ? (
+          <>
+            <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+              <div className="w-10 rounded-full">
+                <img src={user.photoURL} />
+              </div>
+            </label>
+            <p>{user.displayName}</p>
+            <button className="btn btn-ghost">LogOut</button>
+          </>
+        ) : (
+          <Link to={`/login`} className="btn">
+            Login
+          </Link>
+        )}
       </div>
     </div>
   );
