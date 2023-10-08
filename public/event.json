@@ -1,44 +1,44 @@
 [
   {
     "id": 1,
-    "name": "Spring Gala",
-    "image": "https://example.com/spring-gala.jpg",
+    "event_name": "Wedding party",
+    "image": "https://i.ibb.co/2PN2phB/carlo-buttinoni-l-KCp-UYu2-TDk-unsplash.jpg",
     "price": "$50",
-    "description": "Join us for an enchanting evening of music, dance, and fine dining under the stars. The Spring Gala is a formal event to celebrate the arrival of spring."
+    "description": "A wedding party is a joyous and celebratory event that typically takes place after the wedding ceremony. It is a gathering of family and friends who come together to celebrate the newlywed couple's union. The wedding party often includes a reception with food, drinks, music, and dancing."
   },
   {
     "id": 2,
-    "name": "Community Picnic",
-    "image": "https://example.com/community-picnic.jpg",
-    "price": "Free",
-    "description": "Bring your family and friends for a fun-filled day at the park. Enjoy games, food, and live music at our annual community picnic."
+    "event_name": "Birthday party",
+    "image": "https://i.ibb.co/hZsLRKw/birthday.png",
+    "price": "$40",
+    "description": "A birthday party is a celebratory event held to mark and commemorate an individual's birthday, typically an annual occasion. It is a time for friends and family to come together and acknowledge the birthday person's special day. Birthday parties can vary widely in terms of their style, size, and activities."
   },
   {
     "id": 3,
-    "name": "Charity Auction",
-    "image": "https://example.com/charity-auction.jpg",
+    "event_name": "Anniversary party",
+    "image": "https://i.ibb.co/dDMmDvz/joy-memon-rdj-AQGAb-LT4-unsplash.jpg",
     "price": "$100",
-    "description": "Support a good cause and bid on unique items and experiences. All proceeds from this charity auction will go to a local charity."
+    "description": "An anniversary party is a special celebration held to commemorate a significant milestone in a couple's or an organization's history. These milestones often include wedding anniversaries, such as the first, tenth, 25th, or 50th wedding anniversary, or organizational anniversaries, like the founding anniversary of a company or institution."
   },
   {
     "id": 4,
-    "name": "Cultural Festival",
-    "image": "https://example.com/cultural-festival.jpg",
+    "event_name": "Engagement Party",
+    "image": "https://i.ibb.co/tZTfC6z/michael-negrete-OYA4j-Uccon-I-unsplash.jpg",
     "price": "$20",
-    "description": "Explore the rich tapestry of cultures in our community. The Cultural Festival showcases art, music, and cuisine from around the world."
+    "description": "An engagement party is a celebratory event held to mark and announce an engagement, the formal commitment of two individuals to marry. These parties are typically held shortly after the engagement, serving as a way to bring together close family and friends to share in the joy and excitement of the couple's decision to get married."
   },
   {
     "id": 5,
-    "name": "Summer Music Festival",
-    "image": "https://example.com/summer-music-festival.jpg",
+    "event_name": "Retirement Party",
+    "image": "https://i.ibb.co/khCrrDL/BLOG-86.jpg",
     "price": "$45",
-    "description": "Get ready for a day of live music from top artists, food trucks, and a lively atmosphere at our annual Summer Music Festival."
+    "description": "A retirement party is a special celebration held in honor of an individual who is retiring from their job or career after many years of dedicated service. These parties are typically organized by colleagues, friends, or family members to mark the retiree's transition into a new phase of life, often marked by leisure, travel, and pursuing personal interests."
   },
   {
     "id": 6,
-    "name": "Art Exhibition Opening",
-    "image": "https://example.com/art-exhibition.jpg",
+    "event_name": "Baby shower Party",
+    "image": "https://i.ibb.co/gPrtpsY/aboodi-vesakaran-ox-P3bl3x-QPI-unsplash.jpg",
     "price": "Free",
-    "description": "Discover the world of contemporary art at our art exhibition opening. Explore unique artworks and meet the artists."
+    "description": "A baby shower is a special celebration held to honor an expectant mother and her soon-to-arrive baby. It's typically organized by friends, family, or colleagues to provide support and best wishes to the parents-to-be. The event often takes place before the baby's birth and includes a range of fun and heartwarming activities."
   }
 ]
