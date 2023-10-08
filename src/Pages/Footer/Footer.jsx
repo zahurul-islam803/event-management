@@ -1,7 +1,7 @@
 
 const Footer = () => {
   return (
-    <div className="p-2" data-aos="fade-up" data-aos-duration="1000">
+    <div data-aos="fade-up" data-aos-duration="1000" className="mt-28">
       <footer className="footer grid grid-cols-2 md:grid-cols-3 p-10 bg-neutral rounded-lg mb-10 text-neutral-content">
         <nav>
           <header className="footer-title">Services</header>

@@ -1,14 +1,14 @@
 
 const Team = () => {
   return (
-    <div className="my-14 p-2">
+    <div className="my-14">
       <h1 className="uppercase text-5xl text-center my-10 font-semibold">
         Our Team
       </h1>
       <hr />
-      <div className="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-14 grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <div
-          data-aos="fade-right"
+          data-aos="zoom-in"
           data-aos-duration="1000"
           className="flex items-center justify-center gap-3 my-4"
         >
@@ -44,7 +44,7 @@ const Team = () => {
           </div>
         </div>
         <div
-          data-aos="fade-left"
+          data-aos="zoom-in"
           data-aos-duration="1000"
           className="flex items-center justify-center gap-3 my-4"
         >
@@ -62,7 +62,7 @@ const Team = () => {
           </div>
         </div>
         <div
-          data-aos="fade-right"
+          data-aos="zoom-in"
           data-aos-duration="1000"
           className="flex items-center justify-center gap-3 my-4"
         >
@@ -98,7 +98,7 @@ const Team = () => {
           </div>
         </div>
         <div
-          data-aos="fade-left"
+          data-aos="zoom-in"
           data-aos-duration="1000"
           className="flex items-center justify-center gap-3 my-4"
         >
