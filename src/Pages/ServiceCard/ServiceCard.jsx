@@ -1,8 +1,13 @@
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 const ServiceCard = ({ service }) => {
-  const {event_name, image, price, description} = service || {}
+  const { id, event_name, image, price, description} = service || {}
   return (
-    <div className="card shadow-xl" data-aos="zoom-in-up" data-aos-duration="1000">
+    <div
+      className="card shadow-xl"
+      data-aos="zoom-in-up"
+      data-aos-duration="1000"
+    >
       <figure>
         <img src={image} className="w-full h-[300px]" alt="Event image" />
       </figure>
@@ -15,7 +20,9 @@ const ServiceCard = ({ service }) => {
             : { description }}
         </p>
         <div className="card-actions justify-center">
-          <button className="btn btn-secondary">Details</button>
+          <Link to={`/service/${id}`}>
+            <button className="btn btn-secondary">Details</button>
+          </Link>
         </div>
       </div>
     </div>

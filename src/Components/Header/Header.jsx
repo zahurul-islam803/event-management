@@ -27,7 +27,7 @@ const Header = () => {
       </div>
       <div id="slide2" className="carousel-item relative w-full">
         <img
-          src="https://i.ibb.co/hZsLRKw/birthday.png"
+          src="https://i.ibb.co/1Mmv49P/start-blowing-first-make-wish.jpg"
           className="w-full rounded-lg opacity-[0.5]"
         />
         <div className="absolute top-[20%] left-[30%] right-[30%]">
@@ -96,7 +96,7 @@ const Header = () => {
       </div>
       <div id="slide5" className="carousel-item relative w-full">
         <img
-          src="https://i.ibb.co/khCrrDL/BLOG-86.jpg"
+          src="https://i.ibb.co/y60kKTs/senior-people-having-fun-party.jpg"
           className="w-full rounded-lg opacity-[0.5]"
         />
         <div className="absolute top-[20%] left-[30%] right-[30%]">
