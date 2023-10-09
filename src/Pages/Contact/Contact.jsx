@@ -46,6 +46,9 @@ const Contact = () => {
           </div>
           <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-[#000]">
             <form className="card-body">
+              <h1 className="text-2xl text-center text-[#e237f8]">
+                Send me Message
+              </h1>
               <div className="form-control">
                 <label className="label">
                   <span className="label-text text-white">Name</span>
@@ -92,7 +95,7 @@ const Contact = () => {
                 ></textarea>
               </div>
               <div className="form-control mt-6">
-                <button className="btn btn-primary">Submit</button>
+                <button className="btn btn-secondary">Submit</button>
               </div>
             </form>
           </div>
