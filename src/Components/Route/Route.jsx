@@ -6,6 +6,8 @@ import Login from "../../Pages/Login/Login";
 import Register from "../../Pages/Register/Register";
 import Service from "../Service/Service";
 import PrivateRoute from "../PrivateRoute/PrivateRoute";
+import Contact from "../../Pages/Contact/Contact";
+import Featured from "../../Pages/Featured/Featured";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -33,6 +35,22 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
         loader: () => fetch(`/event.json`),
+      },
+      {
+        path: "/contact",
+        element: (
+          <PrivateRoute>
+            <Contact></Contact>
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "/featured",
+        element: (
+          <PrivateRoute>
+            <Featured></Featured>
+          </PrivateRoute>
+        ),
       },
     ],
   },

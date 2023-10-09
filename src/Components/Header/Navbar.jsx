@@ -48,12 +48,22 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
-          to="/serviceCard"
+          to="/featured"
           className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "active" : ""
           }
         >
-          Service
+          Featured
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/contact"
+          className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "active" : ""
+          }
+        >
+          Contact Us
         </NavLink>
       </li>
     </>
@@ -86,7 +96,7 @@ const Navbar = () => {
             {navLinks}
           </ul>
         </div>
-        <p className="text-[#F9A51A] text-2xl font-medium">Social Events</p>
+        <p className="text-[#F9A51A] ml-3 text-2xl font-medium">Social Events</p>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
