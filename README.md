@@ -1,7 +1,7 @@
 # Website Name: Event Management
 
 # website live link:
-## 🔗 
+## 🔗 https://event-management-e4914.web.app/
 
 # Added at least 5 project features and functionality.
 
